@@ -1,7 +1,7 @@
 {
-  "name": "react-credit-card",
+  "name": "react-credit-card-component",
   "version": "1.0.0",
-  "description": "cmx-credit-card React component",
+  "description": "react credit card component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -28,8 +28,8 @@
     "nwb-sass": "^0.7.1",
     "path": "^0.12.7"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Katherine Martinez",
+  "homepage": "https://react-credit-card.herokuapp.com/",
   "license": "MIT",
   "repository": "",
   "keywords": [
