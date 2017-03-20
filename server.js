@@ -7,10 +7,10 @@ app.set('port', (process.env.PORT || 8000))
 app.disable('x-powered-by')
 
 try {
-  fs.statSync('dist')
-  console.log('Serving static build from dist/')
+  fs.statSync('demo/dist')
+  console.log('Serving static build from demo/dist/')
   console.log('Run `npm run clean` to return to development mode')
-  app.use('/', express.static(path.join(__dirname, 'dist')));
+  app.use('/', express.static(path.join(__dirname, 'demo/dist')));
 }
 catch (e) {
   console.log('Serving development build with nwb middleware')

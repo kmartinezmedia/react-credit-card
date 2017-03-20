@@ -20,7 +20,10 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "nwb-sass": "^0.7.1"
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "nwb-sass": "^0.7.1",
+    "path": "^0.12.7"
   },
   "peerDependencies": {
     "react": "15.x"
