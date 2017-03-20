@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'cmxCreditCard',
+      global: 'reactCreditCard',
       externals: {
         react: 'React'
       }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="29px" viewBox="0 0 200 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>card number</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="166.4" height="27.1620112" rx="1.6"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Credit/Debit-Card" transform="translate(-43.000000, -285.000000)">
+            <g id="Back" transform="translate(31.000000, 228.000000)">
+                <g id="card-number" transform="translate(12.024830, 57.921028)">
+                    <rect id="Rectangle-190-Copy" fill="#FFFFFF" x="0" y="0" width="166.4" height="27.1620112" rx="1.6"></rect>
+                    <g id="Group">
+                        <rect id="Rectangle-190" fill="#FFFFFF" x="0.8" y="0.798882682" width="198.4" height="25.5642458"></rect>
+                        <g id="Rectangle-638-+-Rectangle-638-Copy-3-+-Rectangle-638-Copy-4-+-Rectangle-638-Copy-5-+-Rectangle-638-Copy-6-+-Rectangle-638-Copy-+-Rectangle-638-Copy-2-Mask">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="Rectangle-638" fill="#FFDC00" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="3.19553073" width="172.8" height="4.79329609"></rect>
+                            <rect id="Rectangle-638-Copy-3" fill="#7323DC" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="0" width="172.8" height="3.19553073"></rect>
+                            <rect id="Rectangle-638-Copy-4" fill="#7323DC" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="7.98882682" width="172.8" height="3.19553073"></rect>
+                            <rect id="Rectangle-638-Copy-5" fill="#7323DC" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="15.9776536" width="172.8" height="3.19553073"></rect>
+                            <rect id="Rectangle-638-Copy-6" fill="#7323DC" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="23.9664804" width="172.8" height="3.19553073"></rect>
+                            <rect id="Rectangle-638-Copy" fill="#FFDC00" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="11.1843575" width="172.8" height="4.79329609"></rect>
+                            <rect id="Rectangle-638-Copy-2" fill="#FFDC00" opacity="0.1" mask="url(#mask-2)" x="-3.2" y="19.1731844" width="172.8" height="4.79329609"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

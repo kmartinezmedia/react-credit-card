@@ -6,8 +6,7 @@ import Component from '../../src'
 let Demo = React.createClass({
   render() {
     return <div>
-      <h1>cmx-credit-card Demo</h1>
-      <Component/>
+      <Component cardWidth={400}/>
     </div>
   }
 })
