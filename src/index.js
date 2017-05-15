@@ -1,13 +1,13 @@
 import React from 'react';
 import classnames from 'classnames';
 import {getCreditCardType, formatCardNumber, validateExpMonth, validateExpYear} from './utils';
-import './styles.scss';
+import './styles.css';
 
 
 export default class ReactCreditCard extends React.Component {
   constructor(props) {
     super(props);
-  
+
     this.state = {
       cardExpMonth: "",
       cardExpYear: "",
@@ -72,7 +72,7 @@ export default class ReactCreditCard extends React.Component {
   }
 
   render() {
-    
+
     const {
       cardExpMonth,
       cardExpYear,
@@ -110,20 +110,20 @@ export default class ReactCreditCard extends React.Component {
 
     return (
       <div className="react-credit-card">
-        <div 
+        <div
           className={cardClass}
           style={{
             width: cardWidth,
             height: cardWidth / 1.5
           }}>
-          
+
           {/* front of card */}
           <div className={frontClass}>
             <div className="react-credit-card__top-content">
               <div className="react-credit-card__chip"></div>
               <div className={logoClass}></div>
             </div>
-            
+
             <div className="react-credit-card__middle-content">
               <label
                 className="react-credit-card__label"
@@ -141,9 +141,9 @@ export default class ReactCreditCard extends React.Component {
                 ref={(input) => { this.cardNumber = input; }}
               />
             </div>
-            
+
             <div className="react-credit-card__bottom-content">
-              
+
               <div className="react-credit-card__name">
                 <label
                   className="react-credit-card__label"
@@ -160,7 +160,7 @@ export default class ReactCreditCard extends React.Component {
                   ref={(input) => { this.cardName = input; }}
                   />
               </div>
-              
+
               <div className="react-credit-card__expiration">
                 <label
                   className="react-credit-card__label"

@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe cmx-credit-card here.
+https://gist.github.com/kmartinezmedia/292303c7d88f4d19e4d1a8578323a1fb for sass file
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo

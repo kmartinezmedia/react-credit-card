@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
   type: 'react-component',
   npm: {
@@ -7,6 +9,11 @@ module.exports = {
       externals: {
         react: 'React'
       }
+    }
+  },
+  webpack: {
+    aliases: {
+      'src': path.resolve('src'),
     }
   }
 }
