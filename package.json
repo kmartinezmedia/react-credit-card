@@ -14,6 +14,9 @@
     "build": "nwb build-react-component --copy-files --no-proptypes",
     "clean": "nwb clean-module && nwb clean-demo",
     "start": "nwb serve-react-demo",
+    "pm2": "pm2 start server.js --name kmartinezmedia.com/prototype-react-credit-card",
+    "pm2:delete": "pm2 delete kmartinezmedia.com/prototype-react-credit-card",
+    "production": "npm run build && pm2 restart kmartinezmedia.com/prototype-react-credit-card",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
