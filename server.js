@@ -3,7 +3,7 @@ var path = require('path')
 var express = require('express')
 var app = express()
 
-app.set('port', (4994))
+app.set('port', (4992))
 app.disable('x-powered-by')
 
 try {
